@@ -45,7 +45,7 @@ header > p {
 
 
 main {
-    padding-bottom: 950px;
+    padding-bottom: 1000px;
     background-color: darkslategrey;
     height: 500px;
     max-width: 900px;
@@ -119,11 +119,24 @@ nav > a:hover {
     transition-duration: 1s;
 }
 
-div.video {
-    margin: auto;
+ main > div.video {
+    background-color: #1C6A1C;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width:90%;
+    height: 90%;
 }
 
 footer > p{
+    margin-top: 10px;
     background-color: #094309;
     text-align: center;
 }
