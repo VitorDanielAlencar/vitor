@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+:root { 
+    --cor0: #85D885;
+    --cor1: #5CB75C;
+    --cor2: #379037;
+    --cor3: #1C6A1C;
+    --cor4: #094309;
+
+
+    --font-padrao: ;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(153, 169, 169);
+}
+
+header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.739);
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, #85D885, #094309 );
+    
+}  
+
+
+header  > h1 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.569);
+    
+}
+
+header > p {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+main {
+    padding-bottom: 800px;
+    background-color: darkslategrey;
+    height: 500px;
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    
+}
+
+main > article > h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.569);
+
+}
+
+main > article >p >a {
+    
+    color: #379037;
+    text-decoration: none;
+
+}
+main a:hover {
+    background-color: #009c00;
+    transition-duration: 1s;
+    color: #094309;
+}
+main  p {
+
+    text-indent: 15px;
+    margin: 10px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+main  img#p {
+    width: 90%;
+    height: 500px;
+
+}
+
+nav
+{
+    background-color: #094309;
+    width: 100%;
+    padding: 0px;
+    background-color: #094309 ;
+
+
+}
+
+nav > a {
+    
+     margin: 1px;
+    padding: 10px 10px 0px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5CB75C ;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    padding-bottom: 1px;
+    box-shadow: 1px 0px 1px #094309;
+    border-radius: 5px;
+    padding: 10px 10px 0px ;
+    color: rgb(0, 255, 170);
+    background-color : #1C6A1C ; 
+    transition-duration: 1s;
+}
+
+div.video {
+    margin: auto;
+}
+
+footer > p{
+    background-color: #094309;
+    text-align: center;
+}
+
